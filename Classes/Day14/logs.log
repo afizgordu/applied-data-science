@@ -1,0 +1,53 @@
+2024-08-12 15:51:33,996:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-12 15:51:33,997:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-12 15:51:33,997:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-12 15:51:33,997:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-12 16:01:18,717:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-12 16:01:18,717:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-12 16:01:18,717:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-12 16:01:18,717:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-12 16:17:30,906:WARNING:/opt/anaconda3/envs/pycaret_env/lib/python3.10/site-packages/ydata_profiling/model/correlations.py:66: UserWarning: There was an attempt to calculate the auto correlation, but this failed.
+To hide this warning, disable the calculation
+(using `df.profile_report(correlations={"auto": {"calculate": False}})`
+If this is problematic for your use case, please report this as an issue:
+https://github.com/ydataai/ydata-profiling/issues
+(include the error message: 'Function <code object pandas_auto_compute at 0x3054bed90, file "/opt/anaconda3/envs/pycaret_env/lib/python3.10/site-packages/ydata_profiling/model/pandas/correlations_pandas.py", line 167>')
+  warnings.warn(
+
+2024-08-12 16:19:43,456:WARNING:/opt/anaconda3/envs/pycaret_env/lib/python3.10/site-packages/ydata_profiling/model/correlations.py:66: UserWarning: There was an attempt to calculate the auto correlation, but this failed.
+To hide this warning, disable the calculation
+(using `df.profile_report(correlations={"auto": {"calculate": False}})`
+If this is problematic for your use case, please report this as an issue:
+https://github.com/ydataai/ydata-profiling/issues
+(include the error message: 'Function <code object pandas_auto_compute at 0x3054bed90, file "/opt/anaconda3/envs/pycaret_env/lib/python3.10/site-packages/ydata_profiling/model/pandas/correlations_pandas.py", line 167>')
+  warnings.warn(
+
+2024-08-12 16:24:48,109:INFO:PyCaret ClassificationExperiment
+2024-08-12 16:24:48,109:INFO:Logging name: clf-default-name
+2024-08-12 16:24:48,109:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2024-08-12 16:24:48,109:INFO:version 3.3.2
+2024-08-12 16:24:48,109:INFO:Initializing setup()
+2024-08-12 16:24:48,109:INFO:self.USI: c7ad
+2024-08-12 16:24:48,109:INFO:self._variable_keys: {'y', 'X_test', 'n_jobs_param', 'fold_groups_param', 'html_param', 'USI', 'X_train', 'X', 'is_multiclass', 'pipeline', 'log_plots_param', 'memory', 'y_train', 'fold_shuffle_param', '_available_plots', 'logging_param', 'target_param', 'gpu_param', '_ml_usecase', 'fold_generator', 'data', 'fix_imbalance', 'idx', 'exp_id', 'seed', 'exp_name_log', 'y_test', 'gpu_n_jobs_param'}
+2024-08-12 16:24:48,109:INFO:Checking environment
+2024-08-12 16:24:48,109:INFO:python_version: 3.10.14
+2024-08-12 16:24:48,109:INFO:python_build: ('main', 'May  6 2024 14:42:37')
+2024-08-12 16:24:48,109:INFO:machine: arm64
+2024-08-12 16:24:48,134:INFO:platform: macOS-14.6.1-arm64-arm-64bit
+2024-08-12 16:24:48,135:INFO:Memory: svmem(total=17179869184, available=6379388928, percent=62.9, used=8184414208, free=132055040, active=6261047296, inactive=6207979520, wired=1923366912)
+2024-08-12 16:24:48,135:INFO:Physical Core: 8
+2024-08-12 16:24:48,135:INFO:Logical Core: 8
+2024-08-12 16:24:48,135:INFO:Checking libraries
+2024-08-12 16:24:48,135:INFO:System:
+2024-08-12 16:24:48,135:INFO:    python: 3.10.14 (main, May  6 2024, 14:42:37) [Clang 14.0.6 ]
+2024-08-12 16:24:48,135:INFO:executable: /opt/anaconda3/envs/pycaret_env/bin/python
+2024-08-12 16:24:48,135:INFO:   machine: macOS-14.6.1-arm64-arm-64bit
+2024-08-12 16:24:48,135:INFO:PyCaret required dependencies:
